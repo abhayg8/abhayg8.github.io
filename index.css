@@ -1,10 +1,14 @@
 
-
+html {
+    scroll-behavior:    smooth;
+}
 .navigation {
     background-color:   #330066;
     padding:             20px;
     width:               100%;
     overflow-x:          hidden; 
+    position:            fixed;
+    top:                 0;
     
 }
 
@@ -19,8 +23,28 @@
     margin-right:       30px;
 }
 
+.namelogo:hover {
+    color:              #2AB39A;
+    font-family:        'Megrim';
+    font-weight:        bold;
+    font-size:          30px;
+    padding:            10px;
+    vertical-align:     middle;
+    text-decoration:    none;
+    margin-right:       30px;
+}
+
 .navtext {
     color:            #ffffff;
+    font-size:          25px;
+    padding:            10px;
+    text-decoration:    none;
+    text-align:         center;
+    vertical-align:     middle;
+}
+
+.navtext:hover {
+    color:            #2AB39A;
     font-size:          25px;
     padding:            10px;
     text-decoration:    none;
@@ -49,13 +73,19 @@ body {
 }
 
 #AboutMe { 
-    background-color:  #27044a;
-    vertical-align:      top;
+    padding-top:        3em
 }
 
 #Projects {
-    background-color:    #27044a;
-    vertical-align:       top;
+    padding-top:        3em
+}
+
+#Experience {
+    padding-top:        3em;
+}
+
+#Connect {
+    padding-top:        3em;
 }
 
 .profilepic {
@@ -69,6 +99,7 @@ body {
 }
 
 h1  {
+    padding-top:        1em;
     font-size:          80px;
     text-align:         center;
     color:              #ffffff;
