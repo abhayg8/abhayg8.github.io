@@ -1,0 +1,210 @@
+
+
+.navigation {
+    background-color:   #330066;
+    padding:             20px;
+    width:               100%;
+    overflow-x:          hidden; 
+    
+}
+
+.namelogo {
+    color:              #ffffff;
+    font-family:        'Megrim';
+    font-weight:        bold;
+    font-size:          30px;
+    padding:            10px;
+    vertical-align:     middle;
+    text-decoration:    none;
+    margin-right:       30px;
+}
+
+.navtext {
+    color:            #ffffff;
+    font-size:          25px;
+    padding:            10px;
+    text-decoration:    none;
+    text-align:         center;
+    vertical-align:     middle;
+}
+
+.navimage {
+    border-color:     #ffffff;
+    border-width:       5px;
+    border-radius:      20px;
+    border-style:       solid;
+    height:             40px;
+    width:              40px;
+    vertical-align:     middle;
+    padding-left:       5px;
+    padding-right:      10px;
+}
+
+body {
+    background-color:   #27044a;
+    width:              100%;
+    margin:             0px;
+    padding:            0px;
+    overflow-x:         hidden; 
+}
+
+#AboutMe { 
+    background-color:  #27044a;
+    vertical-align:      top;
+}
+
+#Projects {
+    background-color:    #27044a;
+    vertical-align:       top;
+}
+
+.profilepic {
+    border-width:       7px;
+    border-color:       #2AB39A;
+    border-style:       solid;
+    display:            block;
+    margin-left:        auto;
+    margin-right:       auto;
+    width:              20%;
+}
+
+h1  {
+    font-size:          80px;
+    text-align:         center;
+    color:              #ffffff;
+}
+
+.sectionheading {
+    font-size:          50px;
+    color:           #2AB39A;
+    font-family:        'Alata';
+    margin-left:        13%;
+    margin-right:       15%;
+}
+
+.abouttext {
+    color:              #ffffff;
+    font-size:          27px;
+    text-align:         left;
+    margin-left:        13%;
+    margin-right:       15%;
+    line-height:        1.5em;
+}
+
+.projgrid {
+    display:            inline-grid;
+    grid-row-gap:       4em;
+    grid-column-gap:    2em;
+    margin-left:        13%;
+    margin-right:       15%;
+    background-color:   #27044a;
+}
+
+.pic1 {
+    grid-column:        1;
+    grid-row:           1;
+    background-color:   #12061f;
+}
+
+.text1 {
+    grid-column:        2;
+    grid-row:           1;
+    width:              55em;
+    background-color:   #12061f;
+
+}
+.pic2 {
+    grid-column:        1;
+    grid-row:           2;
+    background-color:   #12061f;
+}
+
+.text2 {
+    grid-column:        2;
+    grid-row:           2;
+    width:              55em;
+    background-color:   #12061f;
+}
+.pic3 {
+    grid-column:        1;
+    grid-row:           3;
+    background-color:   #12061f;
+}
+
+.text3 {
+    grid-column:        2;
+    grid-row:           3;
+    width:              55em;
+    background-color:   #12061f;
+}
+.pic4 {
+    grid-column:        1;
+    grid-row:           4;
+    background-color:   #12061f;
+}
+
+.text4 {
+    grid-column:        2;
+    grid-row:           4;
+    width:              55em;
+    background-color:   #12061f;
+}
+
+.tableimage {
+    width:              13em;
+    border-width:       5px;
+    border-color:       #12061f;
+    border-style:       solid;
+}
+
+.gridheading {
+    text-align:         center;
+    vertical-align:     top;
+    color:              #ffffff;
+    font-size:          25px;
+    padding-bottom:     0px
+
+}
+
+.gridtext {
+    color:              #ffffff;
+    font-size:          20px;
+    text-align:         center;
+    vertical-align:     top;
+}
+
+.linkgrid {
+    display:            inline-grid;
+    grid-column-gap:    10em;
+    margin-left:        26%;
+    margin-right:       0%;
+    background-color:   #27044a;
+}
+
+ .link1 {
+    grid-column:        1;
+    grid-row:           1;
+    background-color:   #12061f;
+}
+
+.link2  {
+    grid-column:        2;
+    grid-row:           1;
+    background-color:   #12061f;
+}
+
+.link3  {
+    grid-column:        3;
+    grid-row:           1;
+    background-color:   #12061f;
+}
+
+.linkimage {
+    height:             9em;
+    width:              9em;
+    border-width:       5px;
+    border-color:       #12061f;
+    border-style:       solid;
+}
+
+
