@@ -5,18 +5,24 @@ html {
 .navigation {
     background-color:   #330066;
     padding:             20px;
-    width:               100%;
-    overflow-x:          hidden; 
-    position:            fixed;
+    width:              100%;
     top:                 0;
     
 }
 
+.custom-toggler.navbar-toggler-icon { 
+    border-color:      #ffffff; 
+    border-width:       0.01vw;
+    border-style:       solid;
+    background-image:   url("images/toggleicon.png")
+    
+} 
+
 .namelogo {
     color:              #ffffff;
-    font-family:        'Megrim';
+    font-family:        'Megrim' !important;
     font-weight:        bold;
-    font-size:          30px;
+    font-size:          40px;
     padding:            10px;
     vertical-align:     middle;
     text-decoration:    none;
@@ -25,9 +31,9 @@ html {
 
 .namelogo:hover {
     color:              #2AB39A;
-    font-family:        'Megrim';
+    font-family:        'Megrim' !important;
     font-weight:        bold;
-    font-size:          30px;
+    font-size:          40px;
     padding:            10px;
     vertical-align:     middle;
     text-decoration:    none;
@@ -53,18 +59,6 @@ html {
     vertical-align:     middle;
 }
 
-.navimage {
-    border-color:     #ffffff;
-    border-width:       5px;
-    border-radius:      20px;
-    border-style:       solid;
-    height:             40px;
-    width:              40px;
-    vertical-align:     middle;
-    padding-left:       5px;
-    padding-right:      10px;
-}
-
 body {
     background-color:   #27044a;
     width:              100%;
@@ -74,145 +68,56 @@ body {
 }
 
 #AboutMe { 
-    padding-top:        3em
+    padding-top:        4vw;
 }
 
 #Projects {
-    padding-top:        3em
+    padding-top:        4vw;
 }
 
 #Experience {
-    padding-top:        3em;
+    padding-top:        8vw;
 }
 
 #Connect {
-    padding-top:        3em;
+    padding-top:        8vw;
 }
 
 .profilepic {
-    border-width:       7px;
+    margin-top:         8vh;
+    border-width:       0.3vw;
     border-color:       #2AB39A;
     border-style:       solid;
     display:            block;
     margin-left:        auto;
     margin-right:       auto;
-    width:              20%;
+    width:              25vw;
 }
 
 h1  {
-    padding-top:        1em;
-    font-size:          90px;
+    padding-top:        10vh;
+    font-size:          calc(100% + 3.7vw + 3.7vh);
     font-family:        'Quantico', sans-serif;
-    letter-spacing:      0.04em;
+    letter-spacing:      0.02em;
     text-align:         center;
     color:              #2AB39A;
 }
 
 .sectionheading {
-    font-size:          50px;
+    font-size:          calc(100% + 2vw + 2vh);
     color:           #2AB39A;
     font-family:        'Quantico', sans-serif;   
     letter-spacing:      0.0em;
-    margin-left:        13%;
-    margin-right:       15%;
+    text-align:         center;
+    padding-bottom:      2vw;
 }
 
 .abouttext {
     color:              #ffffff;
-    font-size:          27px;
+    font-size:          calc(100% + 0.5vw + 0.5vh);
     font-family:        'Average Sans', sans-serif;
-    text-align:         left;
-    margin-left:        13%;
-    margin-right:       15%;
+    text-align:         center;
     line-height:        1.5em;
-}
-
-.projgrid {
-    display:            inline-grid;
-    grid-row-gap:       4em;
-    grid-column-gap:    2em;
-    margin-left:        13%;
-    margin-right:       15%;
-    background-color:   #27044a;
-}
-
-.pic1 {
-    grid-column:        1;
-    grid-row:           1;
-    background-color:   #12061f;
-}
-
-.text1 {
-    grid-column:        2;
-    grid-row:           1;
-    width:              55em;
-    background-color:   #12061f;
-    font-family:        'Average Sans', sans-serif;
-
-}
-.pic2 {
-    grid-column:        1;
-    grid-row:           2;
-    background-color:   #12061f;
-}
-
-.text2 {
-    grid-column:        2;
-    grid-row:           2;
-    width:              55em;
-    background-color:   #12061f;
-    font-family:        'Average Sans', sans-serif;
-}
-.pic3 {
-    grid-column:        1;
-    grid-row:           3;
-    background-color:   #12061f;
-}
-
-.text3 {
-    grid-column:        2;
-    grid-row:           3;
-    width:              55em;
-    background-color:   #12061f;
-    font-family:        'Average Sans', sans-serif;
-}
-.pic4 {
-    grid-column:        1;
-    grid-row:           4;
-    background-color:   #12061f;
-}
-
-.text4 {
-    grid-column:        2;
-    grid-row:           4;
-    width:              55em;
-    background-color:   #12061f;
-    font-family:        'Average Sans', sans-serif;
-}
-
-.tableimage {
-    width:              13em;
-    border-width:       5px;
-    border-color:       #12061f;
-    border-style:       solid;
-}
-
-.gridheading {
-    text-align:         center;
-    vertical-align:     top;
-    color:              #ffffff;
-    font-size:          25px;
-    padding-bottom:     0px;
-    font-family:        'Average Sans', sans-serif;
-
-}
-
-.gridtext {
-    color:              #ffffff;
-    font-size:          20px;
-    text-align:         center;
-    vertical-align:     top;
-    font-family:        'Average Sans', sans-serif;
 }
 
 .linkgrid {
@@ -247,6 +152,22 @@ h1  {
     border-width:       5px;
     border-color:       #12061f;
     border-style:       solid;
+}
+
+footer {
+    background-color:   #330066 ;
+}
+.footerlogo {
+
+    color:              #ffffff;
+    font-family:        'Megrim' !important;
+    font-weight:        bold;
+    font-size:          calc(100% + 1vw + 1vh);;
+    padding:            10px;
+    text-align:         center;
+    vertical-align:     middle;
+    text-decoration:    none;
+
 }
 
 

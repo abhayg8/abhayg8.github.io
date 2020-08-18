@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="projects.css">
 </head>
 
 <body>
-    
-    <div class="navigation">
-        <a href="#" class="namelogo">AG.</a>
-        <a href="#AboutMe" class="navtext">About Me</a>
-        <a href="#Projects" class="navtext">Projects</a>
-        <a href="#Experience" class="navtext">Experience</a>
-        <a href="#Connect" class="navtext">Connect</a>
-    </div>
+
+    <title>Abhay Gopinathan</title>
+
+    <nav class="navbar navbar-expand-lg navigation">
+        <a href="#" class="navbar-brand namelogo">AG.</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks">
+            <span class="navbar-toggler-icon custom-toggler"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="#AboutMe" class="nav-link navtext">About Me</a></li>
+            <li class="nav-item"><a href="#Projects" class="nav-link navtext">Projects</a></li>
+            <li class="nav-item"><a href="#Experience" class="nav-link navtext">Experience</a></li>
+            <li class="nav-item"><a href="#Connect" class="nav-link navtext">Connect</a></li>
+        </ul>
+        </div>
+    </nav>
 
     <h1>Abhay Gopinathan</h1>
+    <img src="images/profile2.jpg" alt="profilepic" class="img-fluid profilepic">
+
     <div id="AboutMe">
-        <img src="images/profile2.jpg" alt="profilepic" class="profilepic">
         <h2 class="sectionheading">About Me</h2>
         <p class="abouttext">Computer Engineering student focusing on software and computer hardware at <br> the University of Toronto. <br><br>
                              Things I enjoy doing include working on my projects technical and non technical,<br> playing the guitar and watching football.
@@ -33,32 +47,57 @@
     
     <div id="Projects">
         <h2 class="sectionheading">Projects</h2>
-        <div class="projgrid">
-            <div class="pic1"><img src="images/default.jpg" alt="GoogleMaps.jpg" class="tableimage"></div>
-            <div class="text1">
-                <h3 class="gridheading">Geographic Information System</h3>
-                <p class="gridtext">C++ program top help tourists navigate, provides information about points of interest and path finding</p>
-            </div>
-            <div class="pic2"><img src="images/minesweeper.png" alt="minesweeper.png" class="tableimage"></div>
-            <div class="text2">
-                <h3 class="gridheading">Minesweeper</h3>
-                <p class="gridtext">C Program that adapts Minesweeper for DE1-Soc Board, VGA monitor and PS2 Keyboard</p>
-            </div>
-            <div class="pic3"><img src="images/musicplayer.png" alt="musicplayer.png" class="tableimage"></div>
-            <div class="text3">
-                <h3 class="gridheading">Music Player/Recorder</h3>
-                <p class="gridtext">Python program that allows user to play mp3/wav files and also allows for recording of audio </p>                
-            </div>
-            <div class="pic4"><img src="images/othello.png" alt="othello.png" class="tableimage"></div>
-            <div class="text4">
-                <h3 class="gridheading">Othello Player</h3>
-                <p class="gridtext">C algorithm that plays the board game Othello, ranked 10th in my first year leaderboard</p>  
-            </div>
-        </div>
+        <ul class="nav nav-tabs customnavtabs justify-content-center" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" href="#GIS" data-toggle="tab">GIS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Minesweeper" data-toggle="tab">Minesweeper</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" href="#MusicPlayer" data-toggle="tab">Music Player</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Othello" data-toggle="tab">Othello</a>
+            </li>
+        </ul>
     </div>
 
+    <div class="tab-content">
+        <div id="GIS" class="tab-pane custom-pane fade show active">
+            <ul>
+                <li class="pane-text">Geographic Information System built in C++ in a team of three</li>
+                <li class="pane-text">Data obtained from APIs that use Open Street Map data</li>
+                <li class="pane-text">Functionality includes navigation and information on points of interest</li>
+            </ul>
+        </div>
+        <div id="Minesweeper" class="tab-pane custom-pane fade active">
+            <ul>
+                <li class="pane-text">Minesweeper program built in C recreating the classic video game</li>
+                <li class="pane-text">Designed for use on DE1-SoC, using memory mapped IO</li>
+                <li class="pane-text">See the Github</li>
+            </ul>
+        </div>
+        <div id="MusicPlayer" class="tab-pane custom-pane fade active">
+            <ul>
+                <li class="pane-text">Music playing/recording software build in python</li>
+                <li class="pane-text">Playback functionality included for .wav and .mp3 files</li>
+                <li class="pane-text">Audio can be recorded in .wav format </li>
+                <li class="pane-text">Album art display for files that have attached album art</li>
+                <li class="pane-text">See the Github</li>
+            </ul>
+        </div>
+        <div id="Othello" class="tab-pane custom-pane fade active">
+            <ul>
+                <li class="pane-text">Program built in C to play the board game Othello</li>
+                <li class="pane-text">Meant to adapt my own strategy of playing the game into software</li>
+                <li class="pane-text">Ranked 10th against other algorithms from my first year class</li>
+            </ul>
+          </div>
+      </div>
 
-    <div id="Experience">
+   
+    <!--<div id="Experience">
         <h2 class="sectionheading">Experience</h2>
         <div class="projgrid">
             <div class="pic1"><img src="images/isml.png" alt="isml.png" class="tableimage"></div>
@@ -89,10 +128,16 @@
         </div>
     </div>
 
-    <br><br>
 
+    <br><br> -->
 
-    
+    <footer>
+        <p class="footerlogo">AG.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ 
 </body>
 
 
