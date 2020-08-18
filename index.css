@@ -37,6 +37,7 @@ html {
 .navtext {
     color:            #ffffff;
     font-size:          25px;
+    font-family:        'Quantico', sans-serif;  
     padding:            10px;
     text-decoration:    none;
     text-align:         center;
@@ -100,15 +101,18 @@ body {
 
 h1  {
     padding-top:        1em;
-    font-size:          80px;
+    font-size:          90px;
+    font-family:        'Quantico', sans-serif;
+    letter-spacing:      0.04em;
     text-align:         center;
-    color:              #ffffff;
+    color:              #2AB39A;
 }
 
 .sectionheading {
     font-size:          50px;
     color:           #2AB39A;
-    font-family:        'Alata';
+    font-family:        'Quantico', sans-serif;   
+    letter-spacing:      0.0em;
     margin-left:        13%;
     margin-right:       15%;
 }
@@ -116,6 +120,7 @@ h1  {
 .abouttext {
     color:              #ffffff;
     font-size:          27px;
+    font-family:        'Average Sans', sans-serif;
     text-align:         left;
     margin-left:        13%;
     margin-right:       15%;
@@ -142,6 +147,7 @@ h1  {
     grid-row:           1;
     width:              55em;
     background-color:   #12061f;
+    font-family:        'Average Sans', sans-serif;
 
 }
 .pic2 {
@@ -155,6 +161,7 @@ h1  {
     grid-row:           2;
     width:              55em;
     background-color:   #12061f;
+    font-family:        'Average Sans', sans-serif;
 }
 .pic3 {
     grid-column:        1;
@@ -167,6 +174,7 @@ h1  {
     grid-row:           3;
     width:              55em;
     background-color:   #12061f;
+    font-family:        'Average Sans', sans-serif;
 }
 .pic4 {
     grid-column:        1;
@@ -179,6 +187,7 @@ h1  {
     grid-row:           4;
     width:              55em;
     background-color:   #12061f;
+    font-family:        'Average Sans', sans-serif;
 }
 
 .tableimage {
@@ -193,7 +202,8 @@ h1  {
     vertical-align:     top;
     color:              #ffffff;
     font-size:          25px;
-    padding-bottom:     0px
+    padding-bottom:     0px;
+    font-family:        'Average Sans', sans-serif;
 
 }
 
@@ -202,6 +212,7 @@ h1  {
     font-size:          20px;
     text-align:         center;
     vertical-align:     top;
+    font-family:        'Average Sans', sans-serif;
 }
 
 .linkgrid {
