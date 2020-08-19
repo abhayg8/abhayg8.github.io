@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="connect.css">
+
 </head>
 
 <body>
@@ -65,75 +67,107 @@
 
     <div class="tab-content">
         <div id="GIS" class="tab-pane custom-pane fade show active">
-            <ul>
-                <li class="pane-text">Geographic Information System built in C++ in a team of three</li>
-                <li class="pane-text">Data obtained from APIs that use Open Street Map data</li>
-                <li class="pane-text">Functionality includes navigation and information on points of interest</li>
-            </ul>
+            <!--<ul style="pane-list">
+                <li class="pane-text">Geographic Information System built in C++ that provides navigational data</li>
+                <li class="pane-text">Functionality includes path finding and information on points of interest</li>
+                <li class="pane-text">I made this for my software design course in a team with two other students</li>
+                <li class="pane-text">Data was obtained from APIs using Open Street Map data, using which we built a higher level API</li>
+                <li class="pane-text">A* algorithm was used for path finding and the GUI was built using GTK</li>
+            </ul>-->
+            <img src="images/gis.PNG" alt="gis.png" class="img-fluid pane-img">
+            <p class="pane-text">Geographic Information System built in <span class="pane-highlight">C++</span> that provides navigational data, made in a team 
+                of three for my Software Design Course.
+                This program provides functionality including path finding and information on points of interest. Data was obtained from <span class="pane-highlight">APIs</span> 
+                that use <span class="pane-highlight">Open Street Map</span>
+                data. We also added further functionality to these APIs. The GUI was developed using <span class="pane-highlight">Gtk</span> and pathfinding was 
+                implemented using the <span class="pane-highlight">A* algorithm</span>.
+                Back end was added for <span class="pane-highlight">multiple destination path finding</span> that could allow functionality to extend to a trip planner.<p>
         </div>
-        <div id="Minesweeper" class="tab-pane custom-pane fade active">
-            <ul>
+        <div id="Minesweeper" class="tab-pane custom-pane fade">
+            <!--<ul>
                 <li class="pane-text">Minesweeper program built in C recreating the classic video game</li>
-                <li class="pane-text">Designed for use on DE1-SoC, using memory mapped IO</li>
-                <li class="pane-text">See the Github</li>
-            </ul>
+                <li class="pane-text">Designed to be run off of a DE1-SoC board</li>
+                <li class="pane-text">Memory mapped IO, with VGA monitor for output and PS2 keyboard for input</li>
+                <li class="pane-text">Tested on cpulator as we were unable to access labs due to COVID-19</li>
+                <li class="pane-text">Check out the Github</li>
+                <li class="pane-text">More on cpulator here</li>
+            </ul>-->
+            <img src="images/minesweeper.png" alt="minesweeper.png" class="img-fluid pane-img">
+            <p class="pane-text">Minesweeper program built in <span class="pane-highlight">C</span> recreating the classic video game, made in a team of two for my Computer Organisation Course project.
+                This program was meant ot be run off a <span class="pane-highlight">DE1-SoC board</span> using <span class="pane-highlight">memory mapped IO</span> for a VGA monitor, pushbuttons and a PS2 keyboard. Due to COVID-19 testing was
+                done on cpulator (see more here). Check out the Github!<p>
         </div>
-        <div id="MusicPlayer" class="tab-pane custom-pane fade active">
-            <ul>
+        <div id="MusicPlayer" class="tab-pane custom-pane fade">
+            <!--<ul>
                 <li class="pane-text">Music playing/recording software build in python</li>
-                <li class="pane-text">Playback functionality included for .wav and .mp3 files</li>
-                <li class="pane-text">Audio can be recorded in .wav format </li>
-                <li class="pane-text">Album art display for files that have attached album art</li>
-                <li class="pane-text">See the Github</li>
-            </ul>
+                <li class="pane-text">Standard playback features (start/stop, volume, rewind) included</li>
+                <li class="pane-text">Songs in .mp3 and .wav format can be played and recordings produced in .wav</li>
+                <li class="pane-text">Album art displayed for files that have attached album art</li>
+                <li class="pane-text">Check out the Github</li>
+            </ul>-->
+            <img src="images/musicplayer.png" alt="musicplayer.png" class="img-fluid pane-img">
+            <p class="pane-text">Music player and recording built in python as a passion project. This program allows audio playback in .mp3 and .wav formats, 
+                with standard playback control features. Recordings are produced in .wav format. Currently, album art is displayed but going forward, I plan to add 
+                song visualisation. Python libraries used include tkinter, pygame and pyaudio. Check out the Github!
+            </p>
         </div>
-        <div id="Othello" class="tab-pane custom-pane fade active">
-            <ul>
+        <div id="Othello" class="tab-pane custom-pane fade">
+            <!--<ul>
                 <li class="pane-text">Program built in C to play the board game Othello</li>
                 <li class="pane-text">Meant to adapt my own strategy of playing the game into software</li>
                 <li class="pane-text">Ranked 10th against other algorithms from my first year class</li>
-            </ul>
-          </div>
+            </ul>-->
+          
+          <img src="images/othello.png" alt="othello.png" class="img-fluid pane-img">
+          <p class="pane-text">Othello algorithm built in C for my Computer Fundamentals course. I made this algorithm with the goal of translating my real life
+              playing style into code. When played against all other alogrithms in my first year class, 
+              my algorithm ranked 10th. 
+            </p>
+            </div>
       </div>
 
    
-    <!--<div id="Experience">
+      <div id="Experience">
         <h2 class="sectionheading">Experience</h2>
-        <div class="projgrid">
-            <div class="pic1"><img src="images/isml.png" alt="isml.png" class="tableimage"></div>
-            <div class="text1">
-                <h3 class="gridheading">Summer Research Student</h3>
-                <p class="gridtext">Currently working at ISML lab debugging existing verilog code and adapting firmware</p>
-            </div>
-            <div class="pic2"><img src="images/ipm.jpg" alt="ipm.jpg" class="tableimage"></div>
-            <div class="text2">
-                <h3 class="gridheading">Research Volunteer</h3>
-                <p class="gridtext">Conducted interviews for mixed method study to assess efficacy of bereavement care</p>
-            </div>
-        </div>
+        <ul class="nav nav-tabs customnavtabs justify-content-center" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" href="#ISML" data-toggle="tab">ISML</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#IPM" data-toggle="tab">IPM</a>
+            </li>
+        </ul>
     </div>
+
+    <div class="tab-content">
+        <div id="ISML" class="tab-pane custom-pane fade show active">
+            <h3 class="pane-heading">Intelligent Sensory Microsystems Lab</h3>
+            <h4 class="pane-subheading">May 2020 - Present</h4>
+            <p class="pane-text">I am currently working as a summer research student at the ISML Lab in U of T, in the image sensor group. My primary role has been
+                in debugging Verilog code through simulations in Xilinx Vivado/ISE as well as testing the camera itself. I have also worked on adapting 
+                firmware between different versions of image sensors, and producing documentation.<p>
+        </div>
+        <div id="IPM" class="tab-pane custom-pane fade">
+            <h3 class="pane-heading">Institue of Palliative Medicine</h3>
+            <h4 class="pane-subheading">Jun 2019 - Aug 2019</h4>
+            <p class="pane-text">I worked at the Instiute of Palliative Medicine in Calicut, India as a research assistant. My role was to collect data for a 
+                mixed method
+                study to evalulate the efficacy of bereavement care provided by the Institute. I interviewed families of patients who had passed away and
+                 translated the interviews
+                from Malayalam to English, and generated transcripts.<p>
+        </div>
+      </div>
 
    <div id="Connect">
         <h2 class="sectionheading">Connect</h2>
-        <div class="linkgrid">
-            <div class="link1">
-                <a href="https://github.com/abhayg8" target="_blank"><img src="images/github-white.png" alt="Github" class="linkimage"></a>
-            </div>
-            <div class="link2">
-                <a href="https://www.linkedin.com/in/abhayg8/" target="_blank"><img src="images/linkedin-white.png" alt="Linkedin" class="linkimage"></a>
-            </div>
-            <div class="link3">
-                <a href="files/Resume_New.pdf" target="_blank"><img src="images/resume.png" alt="Github" class="linkimage"></a>                
-            </div> 
-        </div>
     </div>
 
 
-    <br><br> -->
+    <br><br>
 
-    <footer>
+   <!-- <footer>
         <p class="footerlogo">AG.</p>
-    </footer>
+    </footer>-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
