@@ -1,0 +1,29 @@
+.github-img {
+    width:              100%;
+}
+
+.linkedin-img {
+    width:              100%;
+}
+
+.resume-img {
+    width:              100%;
+}
+
+
+.row {
+    width:                  30vw;
+    margin-left:            35vw;
+    margin-right:           35vw;
+    margin-top:             5vh;
+}
+
+.email {
+    color:                #ffffff;
+    font-size:             calc(100% + 0.5vw + 0.5vh);
+    font-family:          'Average Sans', sans-serif;
+    margin-top:            5vw;
+    margin-bottom:         5vw;
+    text-align:             center;
+}
+

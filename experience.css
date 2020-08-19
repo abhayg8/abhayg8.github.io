@@ -1,0 +1,37 @@
+.custom-pane-exp.tab-pane {
+    margin-left:          15vw;
+    margin-right:         15vw;
+    border:               none;
+    background-color:     #330066;
+}
+
+.pane-heading-exp {
+    color:                #ffffff;
+    font-size:             calc(100% + 0.2vw + 0.2vh);
+    font-family:          'Average Sans', sans-serif;
+    text-align:            center;
+    padding-top:               2vh;  
+}
+.pane-subheading-exp {
+      color:                #2AB39A;
+      font-size:             calc(100% + .15vw + 0.15vh);
+      font-family:          'Average Sans', sans-serif;
+      text-align:            center;
+}
+
+.pane-text-exp {
+    color:                #ffffff;
+    font-size:             calc(100% + 0.1vw + 0.1vh);
+    font-family:          'Average Sans', sans-serif;
+    text-align:            center;
+    padding-left:          3vw;
+    padding-right:         3vw;
+    padding-top:           3vh;
+    padding-bottom:        5vh;
+}
+
+.pane-highlight-exp {
+  color:                #2AB39A;
+  font-size:             calc(100% + 0.1vw + 0.1vh);
+  font-family:          'Average Sans', sans-serif;
+}
