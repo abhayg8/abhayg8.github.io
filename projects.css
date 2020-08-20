@@ -56,6 +56,12 @@
     font-family:          'Average Sans', sans-serif;
   }
 
+  .pane-link  {
+    color:                #2AB39A;
+    font-size:             calc(100% + 0.1vw + 0.1vh);
+    font-family:          'Average Sans', sans-serif;
+  }
+
   .pane-img {
     display:                block;
     margin-left:            auto;

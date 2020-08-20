@@ -50,14 +50,17 @@
 
     .github-img {
         width:              10vw;
+        vertical-align:     middle;
     }
     
     .linkedin-img {
         width:              10vw;
+        vertical-align:     middle;
     }
     
     .resume-img {
         width:              10vw;
+        vertical-align:     bottom;
     }
 
     .linkgrid {
