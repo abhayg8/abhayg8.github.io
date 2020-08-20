@@ -1,21 +1,13 @@
 .github-img {
-    width:              100%;
+    width:              15vw;
 }
 
 .linkedin-img {
-    width:              100%;
+    width:              15vw;
 }
 
 .resume-img {
-    width:              100%;
-}
-
-
-.row {
-    width:                  30vw;
-    margin-left:            35vw;
-    margin-right:           35vw;
-    margin-top:             5vh;
+    width:              15vw;
 }
 
 .email {
@@ -26,4 +18,56 @@
     margin-bottom:         5vw;
     text-align:             center;
 }
+
+.linkgrid {
+    display:            inline-grid;
+    grid-column-gap:    5vw;;
+    margin-left:        20vw;
+    margin-right:       20vw;
+    background-color:   #27044a;
+}
+
+ .link1 {
+    grid-column:        1;
+    grid-row:           1;
+    background-color:   #27044a;
+}
+
+.link2  {
+    grid-column:        2;
+    grid-row:           1;
+    background-color:   #27044a;
+}
+
+.link3  {
+    grid-column:        3;
+    grid-row:           1;
+    background-color:   #27044a;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .github-img {
+        width:              10vw;
+    }
+    
+    .linkedin-img {
+        width:              10vw;
+    }
+    
+    .resume-img {
+        width:              10vw;
+    }
+
+    .linkgrid {
+        display:            inline-grid;
+        grid-column-gap:    5vw;;
+        margin-left:        30vw;
+        margin-right:       30vw;
+        background-color:   #27044a;
+    }
+
+  }
+
 

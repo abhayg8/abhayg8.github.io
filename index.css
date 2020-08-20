@@ -86,13 +86,13 @@ body {
 
 .profilepic {
     margin-top:         8vh;
-    border-width:       0.3vw;
+    border-width:       0.8vw;
     border-color:       #2AB39A;
     border-style:       solid;
     display:            block;
     margin-left:        auto;
     margin-right:       auto;
-    width:              300px;
+    width:              50vw;
 }
 
 h1  {
@@ -139,5 +139,61 @@ footer {
     text-decoration:    none;
 
 }
+
+@media only screen and (min-width: 600px) {
+
+    .profilepic {
+        margin-top:         8vh;
+        border-width:       0.3vw;
+        border-color:       #2AB39A;
+        border-style:       solid;
+        display:            block;
+        margin-left:        auto;
+        margin-right:       auto;
+        width:              40vw;;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+
+    .profilepic {
+        margin-top:         8vh;
+        border-width:       0.3vw;
+        border-color:       #2AB39A;
+        border-style:       solid;
+        display:            block;
+        margin-left:        auto;
+        margin-right:       auto;
+        width:              30vw;;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+
+    .profilepic {
+        margin-top:         8vh;
+        border-width:       0.3vw;
+        border-color:       #2AB39A;
+        border-style:       solid;
+        display:            block;
+        margin-left:        auto;
+        margin-right:       auto;
+        width:              25vw;;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+
+    .profilepic {
+        margin-top:         8vh;
+        border-width:       0.3vw;
+        border-color:       #2AB39A;
+        border-style:       solid;
+        display:            block;
+        margin-left:        auto;
+        margin-right:       auto;
+        width:              20vw;;
+    }
+  }
 
 
