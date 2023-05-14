@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="connect.css">
@@ -32,8 +33,8 @@
         <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a href="#AboutMe" class="nav-link navtext">About Me</a></li>
-            <li class="nav-item"><a href="#Projects" class="nav-link navtext">Projects</a></li>
             <li class="nav-item"><a href="#Experience" class="nav-link navtext">Experience</a></li>
+            <li class="nav-item"><a href="#Projects" class="nav-link navtext">Projects</a></li>
             <li class="nav-item"><a href="#Connect" class="nav-link navtext">Connect</a></li>
             <!--<li class="nav-item"><a href="music.html" class="nav-link navtext">Music</a></li>-->
         </ul>
@@ -45,117 +46,27 @@
 
     <div id="AboutMe">
         <h2 class="sectionheading">About Me</h2>
-        <p class="abouttext">I am a Computer Engineering student focusing on software and computer hardware<br> at the University of Toronto.<br><br>
+        <p class="abouttext">I am a recent Computer Engineering graduate from the University of Toronto. During my degree I focused on software and computer hardware.
+            In the coming months, I will return to Qualcomm where I did my last internship to work as a Software Engineer in the Autmotive
+            Division.<br><br>
 
-            I am experienced in C/C++, Verilog and Python. I strive to add more skills to my toolbox, and expand my current capabilities.
-            Projects that challenge and excite me are something I look out for.<br><br>
-            
-            In my spare time, I enjoy working on my projects, technical and non-technical. I'm very passionate about music, and
-            play the guitar. I'm also an avid football fan.
+            I have had the opportunity to work on a variety of projects through internships, coursework as well as my own interests. 
+            Largely, I have worked on projects involving embedded systems or systems software. From these experiences, 
+            I have honed my programming skills in C/C++, Java, Python and Verilog. <br><br>
+
+            In my spare time I love to play the guitar and make music. I'm also an avid follower of sport (soccer and F1) and am always 
+            trying to improve my lap times on my sim racing rig.
         </p>
     </div>
 
-    
-    <div id="Projects">
-        <h2 class="sectionheading">Projects</h2>
-        <ul class="nav nav-tabs customnavtabs justify-content-center" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" href="#GIS" data-toggle="tab">GIS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Minesweeper" data-toggle="tab">Minesweeper</a>
-            </li>
-            <li class="nav-item" >
-                <a class="nav-link" href="#MusicPlayer" data-toggle="tab">Music Player</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Othello" data-toggle="tab">Othello</a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="tab-content">
-        <div id="GIS" class="tab-pane custom-pane fade show active">
-            <!--<ul style="pane-list">
-                <li class="pane-text">Geographic Information System built in C++ that provides navigational data</li>
-                <li class="pane-text">Functionality includes path finding and information on points of interest</li>
-                <li class="pane-text">I made this for my software design course in a team with two other students</li>
-                <li class="pane-text">Data was obtained from APIs using Open Street Map data, using which we built a higher level API</li>
-                <li class="pane-text">A* algorithm was used for path finding and the GUI was built using GTK</li>
-            </ul>-->
-            <img src="images/gis.PNG" alt="gis.png" class="img-fluid pane-img">
-            <p class="pane-text">Geographic Information System built in <span class="pane-highlight">C++</span> that provides navigational data, made in a team 
-                of three for my Software Design Course.
-                This program provides functionality including <span class="pane-highlight">path finding</span> and information on 
-                <span class="pane-highlight">points of interest</span>. Data was obtained from 
-                <span class="pane-highlight">APIs</span> 
-                that use <span class="pane-highlight">Open Street Map</span>
-                data. We also added further functionality to these APIs. The GUI was developed using <span class="pane-highlight">Gtk</span> and pathfinding was 
-                implemented using the <span class="pane-highlight">A* algorithm</span>.
-                Back end was added for <span class="pane-highlight">multiple destination path finding</span> that could allow functionality to
-                 extend to a trip planner.<p>
-        </div>
-        <div id="Minesweeper" class="tab-pane custom-pane fade">
-            <!--<ul>
-                <li class="pane-text">Minesweeper program built in C recreating the classic video game</li>
-                <li class="pane-text">Designed to be run off of a DE1-SoC board</li>
-                <li class="pane-text">Memory mapped IO, with VGA monitor for output and PS2 keyboard for input</li>
-                <li class="pane-text">Tested on cpulator as we were unable to access labs due to COVID-19</li>
-                <li class="pane-text">Check out the Github</li>
-                <li class="pane-text">More on cpulator here</li>
-            </ul>-->
-            <img src="images/minesweeper.png" alt="minesweeper.png" class="img-fluid pane-img">
-            <p class="pane-text">Minesweeper program built in <span class="pane-highlight">C</span> recreating the classic video game,
-                 made in a team of two for my Computer Organisation Course project.
-                This program was meant to be run off a <span class="pane-highlight">DE1-SoC board</span> using <span class="pane-highlight">memory mapped IO</span> 
-                for a VGA monitor, pushbuttons and a PS2 keyboard. Due to COVID-19 testing was
-                done on cpulator (see more <a href="https://cpulator.01xz.net/doc/" target="_blank" rel="noopener noreferrer" class="pane-link">
-                    here</a>). Check out the 
-                <a href="https://github.com/zahamza/Minesweeper_DE1-SoC" target="_blank" rel="noopener noreferrer" class="pane-link">Github</a>!<p>
-        </div>
-        <div id="MusicPlayer" class="tab-pane custom-pane fade">
-            <!--<ul>
-                <li class="pane-text">Music playing/recording software build in python</li>
-                <li class="pane-text">Standard playback features (start/stop, volume, rewind) included</li>
-                <li class="pane-text">Songs in .mp3 and .wav format can be played and recordings produced in .wav</li>
-                <li class="pane-text">Album art displayed for files that have attached album art</li>
-                <li class="pane-text">Check out the Github</li>
-            </ul>-->
-            <img src="images/musicplayer.png" alt="musicplayer.png" class="img-fluid pane-img">
-            <p class="pane-text">Music player and recorder built in <span class="pane-highlight">Python</span> as a passion project. This 
-                program allows audio playback in <span class="pane-highlight">.mp3 and .wav</span> formats, 
-                with <span class="pane-highlight">standard playback control</span> features. Recordings are produced in <span class="pane-highlight">.wav format</span>. Currently, 
-                album art is displayed but going forward, I plan to add 
-                song visualisation. Python libraries used include <span class="pane-highlight">tkinter, pygame and pyaudio</span>. Check out the 
-                <a href="https://github.com/abhayg8/Music_Player" target="_blank" rel="noopener noreferrer" class="pane-link">Github</a>!
-            </p>
-        </div>
-        <div id="Othello" class="tab-pane custom-pane fade">
-            <!--<ul>
-                <li class="pane-text">Program built in C to play the board game Othello</li>
-                <li class="pane-text">Meant to adapt my own strategy of playing the game into software</li>
-                <li class="pane-text">Ranked 10th against other algorithms from my first year class</li>
-            </ul>-->
-          
-          <img src="images/othello.png" alt="othello.png" class="img-fluid pane-img">
-          <p class="pane-text">Othello algorithm built in <span class="pane-highlight">C</span> for my Computer Fundamentals course. I made this algorithm with 
-            the goal of 
-              translating my real life
-              playing style into code. When played against all other alogrithms in my first year class, 
-              my algorithm <span class="pane-highlight">ranked 10th</span>. 
-            </p>
-            </div>
-      </div>
-
-   
-      <div id="Experience">
+    <div id="Experience">
         <h2 class="sectionheading">Experience</h2>
         <ul class="nav nav-tabs customnavtabs justify-content-center" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" href="#ISML" data-toggle="tab">ISML</a>
+                <a class="nav-link active" href="#Qualcomm" data-toggle="tab">Qualcomm</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#Chestnut" data-toggle="tab">Chestnut</a>
+                <a class="nav-link" href="#ISML" data-toggle="tab">ISML</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#IPM" data-toggle="tab">IPM</a>
@@ -164,24 +75,26 @@
     </div>
 
     <div class="tab-content">
-        <div id="ISML" class="tab-pane custom-pane fade show active">
-            <h3 class="pane-heading-exp">Intelligent Sensory Microsystems Lab</h3>
-            <h4 class="pane-subheading-exp">May 2020 - Present</h4>
-            <p class="pane-text-exp">I am currently working as a summer <span class="pane-highlight">research student</span> at the ISML Lab in U of T, 
-                in the <span class="pane-highlight">image sensor</span> group. My primary role has been
-                in <span class="pane-highlight">debugging Verilog</span> code through simulations in <span class="pane-highlight">Xilinx Vivado/ISE</span> as well as
-                 testing the camera itself. I have also 
-                worked on <span class="pane-highlight">adapting 
-                firmware</span> between different versions of image sensors, and <span class="pane-highlight">producing documentation</span>.<p>
+        
+        <div id="Qualcomm" class="tab-pane custom-pane fade show active">
+            <h3 class="pane-heading-exp">Qualcomm - Automotive Video</h3>
+            <h4 class="pane-subheading-exp">May 2021 - July 2022</h4>
+            <p class="pane-text-exp">I worked as a <span class="pane-highlight">software engineer intern</span> during my 
+                co-op work term at Qualcomm. I was part of the team that writes <span class="pane-highlight">video drivers</span> 
+                for Automotive platforms. I architected and implemented a <span class="pane-highlight">unit test program</span> for a 
+                <span class="pane-highlight">QNX</span> video driver in <span class="pane-highlight">C</span>. This increased the code under test by 40%. I also architected and implemented a system
+                that <span class="pane-highlight">automates driver tests</span> before code promotion which combines the unit tests and functional tests into a single suite. This was done using
+                <span class="pane-highlight">Python and Bash scripts</span>. I also <span class="pane-highlight">debugged</span> various driver issues.</p>
         </div>
-        <div id="Chestnut" class="tab-pane custom-pane fade">
-            <h3 class="pane-heading-exp">Chestnut Residence and Conference Center</h3>
-            <h4 class="pane-subheading-exp">September 2019 - May 2020</h4>
-            <p class="pane-text-exp">During the last school year, I was a <span class="pane-highlight">Floor Social Coordinator</span> at 
-                Chestnut Residence and & Conference Centre. My role involved 
-                <span class="pane-highlight">organising events</span> for the students <span class="pane-highlight">on my floor</span> as 
-                well as <span class="pane-highlight">larger building wide events</span> on a commission with other Social Coordinators.
-                Events I organised include a Halloween haunted house, an escape room, board game nights and self-care nights.<p>
+        <div id="ISML" class="tab-pane custom-pane fade fade">
+            <h3 class="pane-heading-exp">Intelligent Sensory Microsystems Lab</h3>
+            <h4 class="pane-subheading-exp">May 2020 - August 2020</h4>
+            <p class="pane-text-exp">I worked as a summer <span class="pane-highlight">research student</span> at the ISML Lab at the
+                University of Toronto, in the <span class="pane-highlight">image sensor</span> group. My primary role was
+                in <span class="pane-highlight">debugging Verilog</span> code through simulations in <span class="pane-highlight">Xilinx Vivado/ISE</span> as well as
+                testing the camera itself. I have also 
+                worked on <span class="pane-highlight">adapting 
+                firmware</span> between different versions of image sensors, and <span class="pane-highlight">producing documentation</span>.</p>
         </div>
         <div id="IPM" class="tab-pane custom-pane-exp fade">
             <h3 class="pane-heading-exp">Institue of Palliative Medicine</h3>
@@ -192,9 +105,102 @@
                 study to evalulate the efficacy of <span class="pane-highlight">bereavement care</span> provided by the Institute. 
                 I <span class="pane-highlight">interviewed families</span> of patients who had passed away and
                 <span class="pane-highlight">translated</span> the interviews
-                from Malayalam to English, and <span class="pane-highlight">generated transcripts</span>.<p>
+                from Malayalam to English, and <span class="pane-highlight">generated transcripts</span>.</p>
         </div>
       </div>
+    
+    <div id="Projects">
+        <h2 class="sectionheading">Projects</h2>
+        <ul class="nav nav-tabs customnavtabs justify-content-center" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" href="#Caracal" data-toggle="tab">Caracal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Compiler" data-toggle="tab">Compiler</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" href="#KVRing" data-toggle="tab">KVRing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#GIS" data-toggle="tab">GIS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Vision_Checker" data-toggle="tab">Vision Checker</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-content">
+        <div id="Caracal" class="tab-pane custom-pane fade show active">
+            <img src="images/Caracal.jpg" alt="Caracal.jpg" class="img-fluid pane-img">
+            <p class="pane-text">
+                Caracal is a <span class="pane-highlight">deterministic distributed database</span> written in <span class="pane-highlight">C++</span> 
+                . It was created as part of a research project by Prof.Asvhin Goel and his graduate students. 
+                I worked on with 3 others for my final year design project. Prior to our work, Caracal used static data partitions. 
+                When there is <span class="pane-highlight">imbalanced load</span>, performance is affected. 
+                In our project we implemented <span class="pane-highlight">data migration</span> 
+                between nodes to address this gap. In the benchmarking for Caracal, transactions were all generated prior to
+                execution on all nodes. This is not a good approximation of <span class="pane-highlight">real-world use cases</span>
+                . Therefore, we also implemented 
+                <span class="pane-highlight">dynamic transaction generation</span> that would allow the generation of skewed loads such 
+                that data migration could be tested using the TPCC benchmark. We have also implemented the foundations for 
+                <span class="pane-highlight">migration policy</span> so that peformance gains can be realised.</p>
+        </div>
+        <div id="GIS" class="tab-pane custom-pane fade show fade">
+            <img src="images/gis.PNG" alt="gis.png" class="img-fluid pane-img">
+            <p class="pane-text">Geographic Information System built in <span class="pane-highlight">C++</span> that provides navigational data, made in a team 
+                of three for my Software Design Course.
+                This program provides functionality including <span class="pane-highlight">path finding</span> and information on 
+                <span class="pane-highlight">points of interest</span>. Data was obtained from 
+                <span class="pane-highlight">APIs</span> 
+                that use <span class="pane-highlight">Open Street Map</span>
+                data. We also added further functionality to these APIs. The GUI was developed using <span class="pane-highlight">Gtk</span> and pathfinding was 
+                implemented using the <span class="pane-highlight">A* algorithm</span>.
+                Back end was added for <span class="pane-highlight">multiple destination path finding</span> that could allow functionality to
+                 extend to a trip planner.</p>
+        </div>
+        <div id="Minesweeper" class="tab-pane custom-pane fade">
+            <img src="images/minesweeper.png" alt="minesweeper.png" class="img-fluid pane-img">
+            <p class="pane-text">Minesweeper program built in <span class="pane-highlight">C</span> recreating the classic video game,
+                 made in a team of two for my Computer Organisation Course project.
+                This program was meant to be run off a <span class="pane-highlight">DE1-SoC board</span> using <span class="pane-highlight">memory mapped IO</span> 
+                for a VGA monitor, pushbuttons and a PS2 keyboard. Due to COVID-19 testing was
+                done on cpulator (see more <a href="https://cpulator.01xz.net/doc/" target="_blank" rel="noopener noreferrer" class="pane-link">
+                    here</a>). Check out the 
+                <a href="https://github.com/zahamza/Minesweeper_DE1-SoC" target="_blank" rel="noopener noreferrer" class="pane-link">Github</a>!</p>
+        </div>
+        <div id="Compiler" class="tab-pane custom-pane fade">
+            <img src="images/compiler.jpg" alt="compiler.png" class="img-fluid pane-img">
+            <p class="pane-text">I developed a compiler to generate code for a C style toy programming language using a both existing 
+                frameworks and my own code. First, I implemented <span class="pane-highlight">lexing using re2c</span> and 
+                <span class="pane-highlight">parsing</span> using Bison to generate the abstract syntax tree (AST). 
+                I wrote error checking code in <span class="pane-highlight">C++</span> that finds syntax and type errors. 
+                Finally I used <span class="pane-highlight">LLVM to implement code generation</span> from the AST.</p>
+        </div>
+        <div id="KVRing" class="tab-pane custom-pane fade">
+            <img src="images/KVRing.png" alt="KVRing.png" class="img-fluid pane-img">
+            <p class="pane-text">For my distributed systems course, I developed a <span class="pane-highlight">Key Value Store</span> 
+                system in <span class="pane-highlight">Java</span> in a team of 3 students.
+                We implemented a client that can send requests (GET, PUT etc.) and a <span class="pane-highlight">distributed service</span> 
+                that processes client requests that are received over a network connection. 
+                The servers are organised into a <span class="pane-highlight">ring using consistent hashing</span>
+                to ensure balanced load. We also implemented <span class="pane-highlight">data replication</span> 
+                so that a single server does not act as a bottle neck. In order to coordinate between servers, 
+                and to add/remove them, we implemented an <span class="pane-highlight">external configuration service</span> 
+                that tracks the system state. 
+                Data is <span class="pane-highlight">persisted to disk</span> to allow for recovery if the system restarts
+                or if failure recovery is required.</p>
+        </div>
+        <div id="Vision_Checker" class="tab-pane custom-pane fade">
+            <img src="images/vision_checker.png" alt="vision_checker.png" class="img-fluid pane-img">
+            <p class="pane-text">Vision Checker is website I develop with 2 other for <span class="pane-highlight">MedHacks 2020</span> 
+                which allows users to do an at home
+                eye test. The front end was built with <span class="pane-highlight">HTML5, CSS and Javascript</span>. We 
+                connected to the <span class="pane-highlight">Google Cloud Speech-to-Text API</span> 
+                using <span class="pane-highlight">Python</span>, and <span class="pane-highlight">Flask</span> to connect the 
+                front-end and back-end together. Our project won <span class="pane-highlight">Google COVID-19 Hackathon Fund Award</span>.
+        </div>
+    </div>
 
    <div id="Connect">
         <h2 class="sectionheading">Connect</h2>
